@@ -1,0 +1,22 @@
+﻿<Window x:Class="BigMacStock.AddStockWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ADD / EDIT STOCK " Height="350" Width="400" Background="LightGray">
+    
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Item Name:" FontWeight="Bold" Margin="10,20,0,0"/>
+            <TextBox Name="txtItemName" Margin="10,5,10,10"/>
+            <TextBlock Text="Supplier Name:" FontWeight="Bold" Margin="10,0,0,0"/>
+            <TextBox Name="txtSupplierName" Margin="10,5,10,10"/>
+            <TextBlock Text="Unit Cost:" FontWeight="Bold" Margin="10,0,0,0"/>
+            <TextBox Name="txtUnitCost" Margin="10,5,10,10"/>
+            <TextBlock Text="Number Required:" FontWeight="Bold" Margin="10,0,0,0"/>
+            <TextBox Name="txtNumberRequired" Margin="10,5,10,10" />
+            <TextBlock Text="Current Stock Level:" FontWeight="Bold" Margin="10,0,0,0"/>
+            <TextBox Name="txtCurrentStockLevel" Margin="10,5,10,10"/>
+
+            <Button Name="btnSave" Content="Save" Click="btnSave_Click" Width="100" FontWeight="Bold" Margin="0,5,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
